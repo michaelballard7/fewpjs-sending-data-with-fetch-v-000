@@ -1,7 +1,7 @@
 // Add your code here
 console.log('Hello World')
 
-let url = "http://localhost:3000/dog"
+let url = "http://localhost:3000/dogs"
 
 // i can prewrite data and configs
 let formData = {
