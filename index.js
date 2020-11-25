@@ -39,15 +39,15 @@ function submitData(name, email){
 
 
 // console.log('Hello World')
-// 
+//
 // let url = "http://localhost:3000/dogs"
-// 
+//
 // // i can prewrite data and configs
 // let formData = {
 //   dogName: "Byron",
 //   dogBreed: "Poodle"
 // };
-// 
+//
 // let configObj = {
 //   method: "POST",
 //   headers: {
@@ -56,9 +56,9 @@ function submitData(name, email){
 //   },
 //   body: JSON.stringify(formData)
 // };
-// 
+//
 // // I can also write on the fly
-// 
+//
 // fetch(url, {
 //     method: "POST",
 //     headers: {
