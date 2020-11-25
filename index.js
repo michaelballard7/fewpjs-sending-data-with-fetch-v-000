@@ -20,9 +20,8 @@ function submitData(name, email){
         body.appendChild(p)
     })
     .catch(err => {
-
          document.body.innerHTML = err.message
-        
+
     })
 }
 
