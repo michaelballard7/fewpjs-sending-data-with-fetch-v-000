@@ -1,5 +1,5 @@
 
-let 
+let
 function submitData(name, email){
     let url = "http://localhost:3000/users";
     fetch(url, {
