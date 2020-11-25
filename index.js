@@ -1,4 +1,5 @@
 
+let 
 function submitData(name, email){
     let url = "http://localhost:3000/users";
     fetch(url, {
@@ -11,6 +12,12 @@ function submitData(name, email){
             name,
             email
         })
+    })
+    .then(res => res.json())
+    .then(data => {
+        let body = document.querySelector('body')
+        let p = document.createElement('p')
+        body.appendChild()
     })
 }
 
