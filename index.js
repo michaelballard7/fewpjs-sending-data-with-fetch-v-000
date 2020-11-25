@@ -2,7 +2,7 @@ let body = document.querySelector('body')
 
 function submitData(name, email){
     let url = "http://localhost:3000/users";
-    fetch(url, {
+    return fetch(url, {
         method:'POST',
         headers: {
             "Content-Type":"application/json",
