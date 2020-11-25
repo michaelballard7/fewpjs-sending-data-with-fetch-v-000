@@ -1,4 +1,4 @@
-
+let body = document.querySelector('body')
 
 function submitData(name, email){
     let url = "http://localhost:3000/users";
@@ -15,14 +15,14 @@ function submitData(name, email){
     })
     .then(res => res.json())
     .then(data => {
-        let body = document.querySelector('body')
         let p = document.createElement('p')
         p.innerText = `${data.id}`
         body.appendChild(p)
     })
+    .catch(err => {
+        console.log(err)
+    })
 }
-
-
 
 
 
