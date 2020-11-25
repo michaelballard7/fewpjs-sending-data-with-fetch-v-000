@@ -9,8 +9,8 @@ function submitData(name, email){
             "Accept":"application/json"
         },
         body: JSON.stringify({
-            name:name,
-            email:email
+            name,
+            email
         })
     })
     .then(res => res.json())
