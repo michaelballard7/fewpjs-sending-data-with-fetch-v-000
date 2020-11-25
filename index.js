@@ -21,10 +21,8 @@ function submitData(name, email){
     })
     .catch(err => {
 
-        console.log(err)
-        let p = document.createElement('p')
-        p.innerText = `${err}`
-        body.appendChild(p)
+         document.body.innerHTML = err.message
+        
     })
 }
 
