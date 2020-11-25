@@ -18,7 +18,7 @@ function submitData(name, email){
         let body = document.querySelector('body')
         let p = document.createElement('p')
         p.innerText = `${data.id}`
-        body.appendChild()
+        body.appendChild(p)
     })
 }
 
