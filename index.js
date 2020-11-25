@@ -24,6 +24,7 @@ function submitData(name, email){
         console.log(err)
         let p = document.createElement('p')
         p.innerText = `${err}`
+        body.appendChild(p)
     })
 }
 
