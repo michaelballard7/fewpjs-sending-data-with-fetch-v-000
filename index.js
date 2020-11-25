@@ -16,7 +16,7 @@ function submitData(name, email){
     .then(res => res.json())
     .then(data => {
         let p = document.createElement('p')
-        p.innerText = `${data.id}`
+        p.textContent = `${data.id}`
         body.appendChild(p)
     })
     .catch(err => {
