@@ -17,6 +17,7 @@ function submitData(name, email){
     .then(data => {
         let body = document.querySelector('body')
         let p = document.createElement('p')
+        p.innerText = `${data.id}`
         body.appendChild()
     })
 }
