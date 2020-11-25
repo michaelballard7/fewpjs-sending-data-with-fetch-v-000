@@ -30,4 +30,6 @@ fetch(url, {
         dogName: "Byron",
         dogBreed: "Poodle"
     })
-});
+})
+.then( res => res.json())
+.then( data => console.log(data))
